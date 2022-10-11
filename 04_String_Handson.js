@@ -27,18 +27,6 @@ var stringHandsOn = function(){
     console.log(trimS.endsWith("up"));
     console.log("-----------is string start with word Hey-------------");
     console.log(trimS.startsWith("Hey"));
-    
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
