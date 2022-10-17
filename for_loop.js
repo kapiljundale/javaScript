@@ -32,8 +32,6 @@ for (let index = 1; index < 30; index++) {
 }
 
 
-
-
 //WAP to find first 43 even numbers
 var countEven = 0; // 2
 for (let index = 0; index < 1000; index++) { // 1  2
