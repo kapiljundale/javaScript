@@ -28,7 +28,7 @@ console.table(Objectkapil);
 let ObjectRam = {
     hightRam: 123,  //OR
     "WeightRam": 45,
-    nickName: "kap"
+    nickName: "kap",
     address: {
         city : "pune"
      }
@@ -44,7 +44,7 @@ ObjectRam.address.landmark = "Laxmi chowk";
 let ObjectRam = {
     hightRam: 123,  //OR
     "WeightRam": 45,
-    nickName: "kap"
+    nickName: "kap",
     add: function(){
         console.log("I am JS developer");
         console.log(this.hightRam);
