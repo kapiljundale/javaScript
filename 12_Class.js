@@ -14,11 +14,11 @@ let tractor = new vehicle("Mahindra 555","red","2200CC","10 LAC","Desial");
 let Bike = new vehicle("Unicorn","Black","150 CC", "1.5 LAC","petrol");
 let Scooter = new vehicle("Activa 5G","Gray","120 CC","1 LAC","petrol")
 
-console.table(car);
-console.table(Bus);
-console.table(tractor);
-console.table(Bike);
-console.table(Scooter);
+console.log(car);
+console.log(Bus);
+console.log(tractor);
+console.log(Bike);
+console.log(Scooter);
 
 console.log("--------------------------------------------------------------------------");
 
@@ -34,10 +34,10 @@ let College1 = new college("College of Engineering, Pune",4,350,"Pune");
 let College2 = new college("MIT C.O.E",5,450,"Pune");
 let College3 = new college("VJIT C.O.E",5,500,"Mumbai");
 let College4 = new college("Walchand C.O.E",7,550,"Sangli");
-console.table(College1);
-console.table(College2);
-console.table(College3);
-console.table(College4);
+console.log(College1);
+console.log(College2);
+console.log(College3);
+console.log(College4);
 console.log("-------------------------------------------------------------------------------");
 for (const key in College1) {
     if (Object.hasOwnProperty.call(College1, key)) {
