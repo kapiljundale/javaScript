@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Assignment</title>
+</head>
+<body>
+    <h1>Understand Local Storage Methods-GetItem, Clear(), and length </h1>
+    <script>
+        window.localStorage.setItem("Sachin","Sangola");
+        window.localStorage.setItem("Kapil","Save");
+        window.localStorage.setItem("Pooja", "Laxmidhaiwadi");
+        window.localStorage.setItem("Poonam", "Karndewadi");
+
+        //Remove Item from Local Storage
+        window.localStorage.removeItem("Pooja");
+
+        // GetItem from Local Storage
+        window.localStorage.getItem("kapil");
+
+        // to find length of Local storage
+        console.log(`Total length of storage = ${window.localStorage.length}`);
+
+        // clear the Local Storage
+        window.localStorage.clear();
+        
+        
+    </script>
+</body>
+</html>
