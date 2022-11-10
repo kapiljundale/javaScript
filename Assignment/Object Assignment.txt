@@ -1,0 +1,86 @@
+C:\Program Files\nodejs\node.exe .\javaScript\11_objectAndMethod.js
+----------All data of teacher ------------------
+{TeacherName: 'Dhananjay Madekar', Age: 33, MobileNumber: 9999999999, address: 'Pune', pincode: 411057, degrees: {…}, certificates: {…}, concatDegree: ƒ}
+┌──────────────┬──────────────┬─────────────────┬───────────────────────┬─────────────────────────────┬─────────────────────────────┬──────────────────────────────────────┬─────────────────────┐
+│   (index)    │ enggineering │       PHD       │          MBA          │         certificat1         │         certificat2         │             certificat3              │       Values        │
+├──────────────┼──────────────┼─────────────────┼───────────────────────┼─────────────────────────────┼─────────────────────────────┼──────────────────────────────────────┼─────────────────────┤
+│ TeacherName  │              │                 │                       │                             │                             │                                      │ 'Dhananjay Madekar' │
+│     Age      │              │                 │                       │                             │                             │                                      │         33          │
+│ MobileNumber │              │                 │                       │                             │                             │                                      │     9999999999      │
+│   address    │              │                 │                       │                             │                             │                                      │       'Pune'        │
+│   pincode    │              │                 │                       │                             │                             │                                      │       411057        │
+│   degrees    │    'CSE'     │ 'Adv Computing' │ 'Sales and Marketing' │                             │                             │                                      │                     │
+│ certificates │              │                 │                       │ 'Hacker rank Participation' │ 'certificate in IFE Course' │ 'certificate in advance programming' │                     │
+│ concatDegree │              │                 │                       │                             │                             │                                      │                     │
+└──────────────┴──────────────┴─────────────────┴───────────────────────┴─────────────────────────────┴─────────────────────────────┴──────────────────────────────────────┴─────────────────────┘
+----------Concat total degrees of teacher ------------------
+Teachers degrees are: CSE, Adv Computing, Sales and Marketing
+----------add new property on object ------------------
+{TeacherName: 'Dhananjay Madekar', Age: 33, MobileNumber: 9999999999, address: 'Pune', pincode: 411057, degrees: {…}, certificates: {…}, concatDegree: ƒ, teacherhight: 55}
+┌──────────────┬──────────────┬─────────────────┬───────────────────────┬─────────────────────────────┬─────────────────────────────┬──────────────────────────────────────┬─────────────────────┐
+│   (index)    │ enggineering │       PHD       │          MBA          │         certificat1         │         certificat2         │             certificat3              │       Values        │
+├──────────────┼──────────────┼─────────────────┼───────────────────────┼─────────────────────────────┼─────────────────────────────┼──────────────────────────────────────┼─────────────────────┤
+│ TeacherName  │              │                 │                       │                             │                             │                                      │ 'Dhananjay Madekar' │
+│     Age      │              │                 │                       │                             │                             │                                      │         33          │
+│ MobileNumber │              │                 │                       │                             │                             │                                      │     9999999999      │
+│   address    │              │                 │                       │                             │                             │                                      │       'Pune'        │
+│   pincode    │              │                 │                       │                             │                             │                                      │       411057        │
+│   degrees    │    'CSE'     │ 'Adv Computing' │ 'Sales and Marketing' │                             │                             │                                      │                     │
+│ certificates │              │                 │                       │ 'Hacker rank Participation' │ 'certificate in IFE Course' │ 'certificate in advance programming' │                     │
+│ concatDegree │              │                 │                       │                             │                             │                                      │                     │
+│ teacherhight │              │                 │                       │                             │                             │                                      │         55          │
+└──────────────┴──────────────┴─────────────────┴───────────────────────┴─────────────────────────────┴─────────────────────────────┴──────────────────────────────────────┴─────────────────────┘
+----------update property on object ------------------
+{TeacherName: 'Dhananjay Madekar', Age: 33, MobileNumber: 9999999999, address: 'Pune', pincode: 411057, degrees: {…}, certificates: {…}, concatDegree: ƒ, teacherhight: 100}
+┌──────────────┬──────────────┬─────────────────┬───────────────────────┬─────────────────────────────┬─────────────────────────────┬──────────────────────────────────────┬─────────────────────┐
+│   (index)    │ enggineering │       PHD       │          MBA          │         certificat1         │         certificat2         │             certificat3              │       Values        │
+├──────────────┼──────────────┼─────────────────┼───────────────────────┼─────────────────────────────┼─────────────────────────────┼──────────────────────────────────────┼─────────────────────┤
+│ TeacherName  │              │                 │                       │                             │                             │                                      │ 'Dhananjay Madekar' │
+│     Age      │              │                 │                       │                             │                             │                                      │         33          │
+│ MobileNumber │              │                 │                       │                             │                             │                                      │     9999999999      │
+│   address    │              │                 │                       │                             │                             │                                      │       'Pune'        │
+│   pincode    │              │                 │                       │                             │                             │                                      │       411057        │
+│   degrees    │    'CSE'     │ 'Adv Computing' │ 'Sales and Marketing' │                             │                             │                                      │                     │
+│ certificates │              │                 │                       │ 'Hacker rank Participation' │ 'certificate in IFE Course' │ 'certificate in advance programming' │                     │
+│ concatDegree │              │                 │                       │                             │                             │                                      │                     │
+│ teacherhight │              │                 │                       │                             │                             │                                      │         100         │
+└──────────────┴──────────────┴─────────────────┴───────────────────────┴─────────────────────────────┴─────────────────────────────┴──────────────────────────────────────┴─────────────────────┘
+----------delete property on nested object ------------------
+{TeacherName: 'Dhananjay Madekar', Age: 33, MobileNumber: 9999999999, address: 'Pune', pincode: 411057, degrees: {…}, certificates: {…}, concatDegree: ƒ, teacherhight: 100}
+┌──────────────┬──────────────┬─────────────────┬───────────────────────┬─────────────────────────────┬──────────────────────────────────────┬─────────────────────┐
+│   (index)    │ enggineering │       PHD       │          MBA          │         certificat2         │             certificat3              │       Values        │
+├──────────────┼──────────────┼─────────────────┼───────────────────────┼─────────────────────────────┼──────────────────────────────────────┼─────────────────────┤
+│ TeacherName  │              │                 │                       │                             │                                      │ 'Dhananjay Madekar' │
+│     Age      │              │                 │                       │                             │                                      │         33          │
+│ MobileNumber │              │                 │                       │                             │                                      │     9999999999      │
+│   address    │              │                 │                       │                             │                                      │       'Pune'        │
+│   pincode    │              │                 │                       │                             │                                      │       411057        │
+│   degrees    │    'CSE'     │ 'Adv Computing' │ 'Sales and Marketing' │                             │                                      │                     │
+│ certificates │              │                 │                       │ 'certificate in IFE Course' │ 'certificate in advance programming' │                     │
+│ concatDegree │              │                 │                       │                             │                                      │                     │
+│ teacherhight │              │                 │                       │                             │                                      │         100         │
+└──────────────┴──────────────┴─────────────────┴───────────────────────┴─────────────────────────────┴──────────────────────────────────────┴─────────────────────┘
+----------Add property on nested object ------------------
+{TeacherName: 'Dhananjay Madekar', Age: 33, MobileNumber: 9999999999, address: 'Pune', pincode: 411057, degrees: {…}, certificates: {…}, concatDegree: ƒ, teacherhight: 100}
+┌──────────────┬──────────────┬─────────────────┬───────────────────────┬─────────────────────────────┬──────────────────────────────────────┬────────────────────────────────────────────┬─────────────────────┐
+│   (index)    │ enggineering │       PHD       │          MBA          │         certificat2         │             certificat3              │                certificat4                 │       Values        │
+├──────────────┼──────────────┼─────────────────┼───────────────────────┼─────────────────────────────┼──────────────────────────────────────┼────────────────────────────────────────────┼─────────────────────┤
+│ TeacherName  │              │                 │                       │                             │                                      │                                            │ 'Dhananjay Madekar' │
+│     Age      │              │                 │                       │                             │                                      │                                            │         33          │
+│ MobileNumber │              │                 │                       │                             │                                      │                                            │     9999999999      │
+│   address    │              │                 │                       │                             │                                      │                                            │       'Pune'        │
+│   pincode    │              │                 │                       │                             │                                      │                                            │       411057        │
+│   degrees    │    'CSE'     │ 'Adv Computing' │ 'Sales and Marketing' │                             │                                      │                                            │                     │
+│ certificates │              │                 │                       │ 'certificate in IFE Course' │ 'certificate in advance programming' │ "Codmind national level event 'COde Tech'" │                     │
+│ concatDegree │              │                 │                       │                             │                                      │                                            │                     │
+│ teacherhight │              │                 │                       │                             │                                      │                                            │         100         │
+└──────────────┴──────────────┴─────────────────┴───────────────────────┴─────────────────────────────┴──────────────────────────────────────┴────────────────────────────────────────────┴─────────────────────┘
+----------log the certificates only in nested object ------------------
+{certificat2: 'certificate in IFE Course', certificat3: 'certificate in advance programming', certificat4: 'Codmind national level event 'COde Tech''}
+┌─────────────┬────────────────────────────────────────────┐
+│   (index)   │                   Values                   │
+├─────────────┼────────────────────────────────────────────┤
+│ certificat2 │        'certificate in IFE Course'         │
+│ certificat3 │    'certificate in advance programming'    │
+│ certificat4 │ "Codmind national level event 'COde Tech'" │
+└─────────────┴────────────────────────────────────────────┘
